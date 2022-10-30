@@ -1,0 +1,8 @@
+.venv
+train_data/vietnamese/
+pretrain_models/en_PP-OCRv3_rec_train/
+pretrain_models/det_r50_vd_sast_icdar15_v2.0_train/
+output/det_r50_sast_vn/
+output/rec_v3_vn_mobile/
+inference/det_r50_sast_vn/
+inference/rec_ppocr_v3_vn/
