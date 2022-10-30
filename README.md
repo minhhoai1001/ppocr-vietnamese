@@ -45,7 +45,7 @@ PaddleOCR aims to create multilingual, awesome, leading, and practical OCR tools
 ## Install  PaddleOCR-Vietnamese
 
 ```
-git clone 
+git clone https://github.com/minhhoai1001/ppocr-vietnamese.git
 pip install -r requirements.txt
 ```
 
@@ -73,15 +73,21 @@ pip install -r requirements.txt
     ```
 - Folder after convert
     ```
-    .
-    ├── convert2paddleocr.py
-    ├── crop_image.py
-    ├── test_label.txt
-    ├── train_label.txt
-    ├── useen_label.txt
-    └── vietnamese
+    ├── train_data
+    │   └── vietnamese
+            ├── crop_label.txt
+            ├── general_dict.txt
+            ├── img_crop
+            ├── labels
+            ├── test_image
+            ├── test_label.txt
+            ├── train_images
+            ├── train_label.txt
+            ├── unseen_test_images
+            ├── useen_label.txt
+            └── vn_dictionary.txt
+        
     ```
-
 - Configs training parameter: `configs/det/det_r50_sast_vn.yml`
     ```
     epoch_num: 300
